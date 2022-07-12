@@ -1,0 +1,34 @@
+{
+	"name": "@fractures/stylelint",
+	"version": "0.0.1",
+	"description": "@fractures stylelint config",
+	"keywords": [
+		"stylelint",
+		"stylelint-config",
+		"css"
+	],
+	"author": "Chris Puska <theta@hey.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fractures/fractures-stylelint"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"dependencies": {
+		"stylelint-order": "^4.0.0"
+	},
+	"devDependencies": {
+		"@let/eslint-config": "latest",
+		"eslint": "^6.8.0",
+		"eslint-config-prettier": "^6.10.1",
+		"eslint-plugin-prettier": "^3.1.2",
+		"eslint-plugin-react": "^7.19.0",
+		"prettier": "^2.0.2"
+	},
+	"peerDependencies": {
+		"stylelint": "^9.0.0"
+	}
+}
